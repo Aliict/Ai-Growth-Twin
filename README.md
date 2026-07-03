@@ -178,4 +178,4 @@ running at the URL in `.env.local` — start that first, or the dashboard will s
 - **PostHog is not read from**: this app writes events to PostHog (if configured) but all of
   its own dashboards, funnels, and models are computed independently from the SQL database —
   PostHog here is an audit trail / integration demo, not a data source for this app.
-- **No CI/CD or deployment**: this is intentionally a local-only prototype (per project scope).
+- **No CI/CD or deployment**: this is intentionally a local-only prototype
